@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android" id="android-manifest-permissions" version="1.0.0">
+<platform name="android">
+<config-file target="AndroidManifest.xml" parent="/*">
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+</config-file>
+</platform>
+</plugin>
